@@ -1,24 +1,33 @@
-# README
+# The Student Wish List Web Application 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## This web application allows student users to create wish lists of supplies they need for the school semester and alum users to view these anonymous lists and donate directly to students' needs. 
 
-Things you may want to cover:
+Notice: This is a prototype, so it is not affiliated with any institution and does not contain any real personal data or advanced security measures. 
 
-* Ruby version
+## Getting Started
+To get started with the app, clone this repo and install the needed dependencies:
 
-* System dependencies
+```
+$ bundle install --without production
+```
 
-* Configuration
+Next, migrate the database:
 
-* Database creation
+```
+$ rails db:migrate
+```
 
-* Database initialization
+Finally, run the test suite to verify that everything is working correctly:
 
-* How to run the test suite
+```
+$ rails test
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+If the test suite passes, you'll be ready to run the app in a local server:
 
-* Deployment instructions
+```
+$ rails server
+```
 
-* ...
+If it does not, feel free to create an issue request. 
+
