@@ -1,11 +1,14 @@
-<h1> Welcome to the Student Wish List Website <3 </h1>
-<h3> 
-  As a student, you can create anonymous wish lists of supplies you need for the semester. 
-  School supplies, winter gear, anything necessary! 
-  Alums can then contribute directly to your needs. 
-  Create an <a>account</a> to get started. 
-</h3>
-<h3> 
-  As an alum, you can view a compiled anonymous list of what students need and directly contribute.
-  Create an <a>account</a> to get started. 
-</h3>
+
+<div id="home">
+  <h1> Welcome to the Student Wish List Website <3 </h1>
+  <p> 
+    As a student, you can create anonymous wish lists of supplies you need for the semester. 
+    School supplies, winter gear, anything necessary! 
+    Alums can then contribute directly to your needs. 
+    Create an <b><%= link_to "account", signup_path %></b> to get started. 
+  </p>
+  <p> 
+    As an alum, you can view a compiled anonymous list of what students need and directly contribute.
+    Create an <b><%= link_to "account", signup_path %></b> to get started. 
+  </p>
+</div>

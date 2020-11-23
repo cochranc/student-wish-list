@@ -1,0 +1,57 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+
+/* @import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets'
+@import '../../../../node_modules/bootstrap/scss/bootstrap'
+
+$background-color: #fff
+$primary-color: #fcd2e8
+$secondary-color: #d48aff
+$primary-font-color: #000
+$secondary-font-color: #330033
+
+.navbar
+  background-color: $primary-color
+  height: 60px
+  nav
+    display: flex
+    flex-flow: row nowrap
+    a
+      padding-left: 5px
+      padding-right: 5px
+      color: $primary-font-color
+      font-size: 20px
+    
+.footer
+  position: absolute
+  bottom: 0%
+  width: 100%
+  height: 40px
+  nav 
+    background-color: $primary-color
+    ul
+      display: flex
+      flex-flow: row nowrap
+      justify-content: space-evenly
+      padding: 10px        
+      list-style: none
+      color: $secondary-font-color
+    a
+      padding-left: 5px
+      padding-right: 5px
+      color: $primary-font-color
+  
