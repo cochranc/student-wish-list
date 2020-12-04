@@ -1,5 +1,10 @@
 <h1> Contact </h1>
-<p style="text-align:center;"> Have any comments, concerns or questions? Let us know here.</p>
+<p style="text-align:center"> Have an item you would like to see on the list? </br>
+    Is something on the website not working? </br>
+    Having issues with your account? </br>
+    Have suggestions for improvement? </br>
+    Leave any comments, concerns, questions, or recommendations here! 
+</p>
 <form>
   <div class="form-group">
     <label>First Name</label>
@@ -10,8 +15,53 @@
     <input type="email" class="form-control" placeholder="Enter email address" required="required">
     <small class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
-  <div class="form-group">
-    <label>Your message to us:</label>
+  <label for="reason">Reason </label>
+  <div style="padding-top: 0" class="form-check" id="reason"> 
+    <div class="form-check" style="padding-top: 0">
+      <input class="form-check-input" type="radio" name="reason" value="option1">
+      <label class="form-check-label">
+        Item Suggestions
+      </label>
+    </div>
+    <div class="form-check" style="padding-top: 0">
+      <input class="form-check-input" type="radio" name="reason" value="option2">
+      <label class="form-check-label">
+        Website Problems
+      </label>
+    </div>
+    <div class="form-check" style="padding-top: 0">
+      <input class="form-check-input" type="radio" name="reason" value="option3">
+      <label class="form-check-label">
+        Account Problems
+      </label>
+    </div>
+    <div class="form-check" style="padding-top: 0">
+      <input class="form-check-input" type="radio" name="reason" value="option4">
+      <label class="form-check-label">
+        General Question
+      </label>
+    </div>
+    <div class="form-check" style="padding-top: 0">
+      <input class="form-check-input" type="radio" name="reason" value="option5">
+      <label class="form-check-label">
+        General Concern
+      </label>
+    </div>
+    <div class="form-check" style="padding-top: 0">
+      <input class="form-check-input" type="radio" name="reason" value="option6">
+      <label class="form-check-label">
+        General Recommendation
+      </label>
+    </div>
+    <div class="form-check" style="padding-top: 0">
+      <input class="form-check-input" type="radio" name="reason" value="option7">
+      <label class="form-check-label">
+        Other
+      </label>
+    </div>
+  </div>
+  <div class="form-group" required="required">
+    <label>Please ellaborate here:</label>
     <textarea class="form-control" rows="4"></textarea>
   </div>
   <div>
